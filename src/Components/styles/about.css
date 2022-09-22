@@ -1,0 +1,170 @@
+.gradient {
+    color: transparent;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.about-header {
+    background-color: #13294b;
+    padding: 220px 100px 100px 100px;
+    position: relative;
+    height: 1100px;
+}
+
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.about-head-img {
+    position: absolute;
+    left: 10%;
+    bottom: -350px;
+    filter: invert(1);
+    width: 50%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.about-header-img {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    height: 550px;
+    width: 45%;
+}
+
+.about-header-img>img {
+    height: 70%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+.about-header-quote {
+    z-index: 9;
+}
+
+.header-section {
+    color: white;
+    position: absolute;
+    z-index: 9;
+    bottom: 100px;
+    width: 60%;
+    margin-left: 13%;
+}
+
+.about-page-heading {
+    margin-left: 60px;
+    font-size: 32px;
+}
+
+.about-heading2 {
+    margin-left: 55px;
+    color: white;
+    margin-top: 30px;
+}
+
+.header-section>h1 {
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.about-header-sec1 {
+    display: flex;
+}
+
+.history-div {
+    display: flex;
+    padding: 8% 0;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 75%;
+}
+
+.history-div>h1 {
+    width: 50%;
+    font-size: 32px;
+}
+
+.history-div>p {
+    width: 50%;
+}
+
+.about-heading {
+    margin-left: 12%;
+    margin-bottom: 100px;
+    font-size: 32px;
+}
+
+.founder {
+    margin: 3%;
+    text-align: center;
+}
+
+.detail {
+    padding: 10px;
+    background-color: #13294b;
+    color: white;
+}
+
+.details {
+    background-color: #13294b;
+    color: white;
+    padding: 10px;
+    width: 98%;
+    margin: auto;
+}
+
+
+.founder:hover .detail {
+    opacity: 1;
+}
+
+.founder>div>p {
+    margin: 0;
+}
+
+.founder-sec1 {
+    display: flex;
+    margin-left: 20%;
+    gap: 15%;
+    margin-bottom: 80px;
+}
+
+.founder-sec2 {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    margin-left: 7%;
+    grid-gap: 2%;
+}
+
+.about-sec3 {
+    padding-bottom: 15%;
+}
+
+.team-banner {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.team-banner>img {
+    object-fit: cover;
+    width: 100%;
+}

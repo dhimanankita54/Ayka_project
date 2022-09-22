@@ -1,0 +1,126 @@
+.gradient {
+    color: transparent;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.industries-header {
+    background-color: #13294b;
+    padding: 220px 100px 100px 100px;
+    position: relative;
+}
+
+.ind-heading {
+    margin-left: 60px;
+    font-size: 32px;
+}
+
+.ind-heading2 {
+    margin-left: 55px;
+    color: white;
+    margin-top: 30px;
+}
+
+.ind-quote {
+    text-align: left;
+    width: 56%;
+    margin-left: 11%;
+    padding: 84px;
+    color: grey;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.head-img {
+    position: absolute;
+    right: 10%;
+    bottom: -18%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    filter: invert(1) drop-shadow(5px 5px 5px rgb(61, 61, 61));
+}
+
+.help-head {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.main-sec {
+    padding: 10px 100px 100px 150px;
+}
+
+.industries,
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    margin: auto;
+    grid-gap: 2%;
+}
+
+.services {
+    padding-bottom: 150px;
+}
+
+.sec {
+    margin: 20px;
+    position: relative;
+    padding: 35px;
+    cursor: none;
+    transition: transform 0.2s ease;
+}
+
+.sec>h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.ind-h1 {
+    position: relative;
+}
+
+.sec>h1::after {
+    content: "";
+    height: 24px;
+    width: 1px;
+    position: absolute;
+    top: 110%;
+    bottom: 0;
+    background: #d1d4d6;
+    left: 0;
+}
+
+.sec>p {
+    color: #6c7689;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.sec:hover {
+    background-color: rgb(245, 244, 244);
+    transform: translateY(-10px);
+}
+
+.sec:hover .ind-h1 {
+    color: rgb(46, 0, 139);
+}
+
+.service-p {
+    font-size: 12px;
+}
