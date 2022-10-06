@@ -574,7 +574,7 @@ video {
 
 .footer-btn {
     position: absolute;
-    right: 15.5%;
+    right: 15%;
     z-index: 9;
     height: 32px;
     margin-top: .4%;
@@ -593,6 +593,7 @@ video {
     background-color: #21025f;
     transform: scale(1.1);
     margin-top: 7px;
+    right: 15.3%
 }
 
 .footer-logo {
