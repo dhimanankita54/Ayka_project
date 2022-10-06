@@ -557,10 +557,6 @@
         bottom: -200px !important;
     }
 
-    .details {
-        width: 114% !important;
-    }
-
     .img2 {
         margin-left: 19% !important;
         width: 80% !important;
@@ -1033,7 +1029,7 @@
         background-color: #13294b;
         color: white;
         padding: 10px;
-        width: 90% !important;
+        width: 95% !important;
         margin: auto;
     }
 
